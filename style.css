@@ -234,5 +234,28 @@ form input:focus, form textarea:focus {
   height: 40px;
   line-height: 40px;
 }
-
+@media screen and (max-width: 950px){
+  .price-container{
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    padding-bottom: 30px;
+    justify-items: center;
+  }
+}
+/* services */
+@media screen and (max-width: 950px){
+  .grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  background-color: #e6e6e6;
+  padding: 10px;
+  padding-bottom: 100px;
+  grid-column-gap: 50px;
+  grid-row-gap: 40px;
+  justify-items: center;
+}
+}
 
