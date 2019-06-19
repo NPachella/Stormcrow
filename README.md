@@ -1,4 +1,4 @@
 # Stormcrow
 Drone Services Website
 
-[Quick access link](www.StormcrowDrone.cf)
+[Quick access link](https://StormcrowDrone.cf)
