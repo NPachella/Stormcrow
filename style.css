@@ -162,30 +162,25 @@ figcaption {
 }
 /* contact page */
 
-
-.left {
+.about-content {
   box-sizing: border-box;
-  width: 50%;
+  width: 100%;
   display: inline-block;
   background-color: #e6e6e6;
-  padding: 1em 0 20em 2em;
+  text-align: center;
+}
 
-}
-.right {
-  box-sizing: border-box;
-  width: 50%;
-  display: inline-block;
-  background-color: #e6e6e6;
-  float: right;
-  padding: 1em 2em 15em 0;
-}
 form input, textarea{
   display: block;
-  width: 90%;
-  float: right;
-  margin-bottom: 1rem;
-  padding: 0.5em 1.5em 0.5em 0;
+  width: 80%;
+  max-width: 750px;
+  padding: 0.5em 1.5em 0.5em 1em;
   box-sizing: border-box;
+  margin: 1rem auto;
+}
+.INPUT{
+  width: 30vw;
+  max-width: 200px;
 }
 form input:focus, form textarea:focus {
   outline: 2px solid #404040;
@@ -234,18 +229,18 @@ form input:focus, form textarea:focus {
   height: 40px;
   line-height: 40px;
 }
+
+/* responsive portion */
+/* pricing */
 @media screen and (max-width: 950px){
   .price-container{
     display: grid;
-    grid-row-gap: 30px;
     grid-template-columns: 1fr;
+    grid-row-gap: 30px;
     padding: 10px;
     padding-bottom: 30px;
     justify-items: center;
   }
-}
-/* services */
-@media screen and (max-width: 950px){
   .grid-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -257,5 +252,17 @@ form input:focus, form textarea:focus {
   grid-row-gap: 40px;
   justify-items: center;
 }
+.grid-item {
+  width: 80vw;
 }
-
+}
+@media screen and (max-width: 680px){
+.bg {
+  padding-bottom: 450px;
+}
+}
+@media screen and (max-width: 605px){
+  .logo {
+    margin: 10px 35vw;
+  }
+}
